@@ -1,0 +1,199 @@
+body{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-color: #36a1d4;
+    font-family: 'Montserrat', sans-serif;
+    color: seashell;
+    font-size: 14px;
+    text-align: center;
+}
+header{
+    background-color: seashell;
+    margin: 0px;
+    padding: 5px;
+    color: #36a1d4;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    font-size: 20px;
+}
+.container{
+    text-align: center;
+}
+.day{
+    width: 100%;
+    margin-bottom: 25px;
+    float: left;
+    text-align: center;
+}
+.lecture{
+    box-sizing: border-box;
+    position: relative;
+    box-align :center;
+    width: 25%;
+    float: left;
+    padding: 0px;
+    margin: 0px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: seashell;
+}
+.join_now_link{
+    margin: 0px ;
+}
+.details{
+    text-align: center;
+    padding: 2px;
+}
+.butt{
+    position: absolute;
+    padding-top: 40px;
+    margin: 0px;
+    left: 50%;
+    -ms-transform: translate(-50%);
+    transform: translate(-50%,-50%);
+}
+.lecture1{
+    box-sizing: border-box;
+    position: relative;
+    width: 50%;
+    float: left;
+    padding: 0px;
+    margin: 0px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: seashell;
+}
+.butt1{
+    position: absolute;
+    padding-top: 40px;
+    margin: 0px;
+    left: 50%;
+    -ms-transform: translate(-50%);
+    transform: translate(-50%,-50%);
+}
+h2{
+    text-shadow: 0px,0px,10px,1px, slategray;
+    font-weight: 900;
+}
+.foot{
+    font-size: 14px;
+    text-align: center;
+    padding-top: 200px;
+    margin-top: 1200px;
+}
+.footq{
+    font-size: 14px;
+    text-align: center;
+    padding-top: 200px;
+    margin-top: 400px;
+}
+.join_now_link{
+    background-color:#36a1d4;
+    border: 1.5px solid seashell;
+    color: seashell;
+    box-shadow: 2px 2px 2px 0px gray;
+    font-weight: 500;
+    border-radius: 10px 10px 10px 10px ;
+}
+.elec{
+    margin: 0px;
+}
+.sem{
+    margin: 0px;
+    padding-bottom: 20px;
+}
+.tt{
+    margin-bottom: 0px;
+}
+.TTpage1{
+    box-sizing: border-box;
+    width: 50%;
+    float: left;
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: seashell;
+}
+.Qpage1{
+    box-sizing: border-box;
+    width: 50%;
+    float: left;
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: seashell;
+    color: #36a1d4;
+    border: 1px solid #36a1d4;
+    }
+
+.TTpage2{
+    box-sizing: border-box;
+    width: 50%;
+    float: left;
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: seashell;
+    color: #36a1d4;
+    border: 1px solid #36a1d4;
+    }
+.Qpage2{
+    width: 50%;
+    float: left;
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#upq{
+    margin-top: 40px;
+    font-size: 20px;
+    font-weight: 900;
+}
+#quiz{
+    width: 100%;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 5px;
+    border-width: 1.5px;
+}
+#quiz_link{
+    margin-top: 1000px;
+}
+.linktt{
+    text-decoration: none;
+    color: #36a1d4;
+}
+.linkq{
+    text-decoration: none;
+    color: seashell;
+}
+.linktt1{
+    text-decoration: none;
+    color: seashell;
+}
+.linkq1{
+    text-decoration: none;
+    color: #36a1d4;
+}
+#quiz_button{
+    background-color: seashell;
+    color: #36a1d4;
+    font-weight: 600;
+}
+@media(max-width:746px){
+    .body{
+        font-size: 12px;
+    }
+    .lecture{
+        width: 50%;
+        margin-bottom: 40px;
+    }
+    #quiz{
+        margin-bottom: 10px;
+    }
+}
